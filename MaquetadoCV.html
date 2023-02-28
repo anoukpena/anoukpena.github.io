@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi currículum vitae.</title>
+    <link rel="icon" type="image/png" href="./img/favicon-16x16.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="CSS/Estilos.css">
+    <link rel="stylesheet" href="CSS/Profile.css">
+    <link rel="stylesheet" href="CSS/Skills.css">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img height="32" width="32" src="img/favicon-32x32.png" alt="Logotipo" />
+                <div>Esperanza Ferrari<br>Licenciada en Psicología</div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="img/openmenu.svg" alt="abrir menú" />
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <img src="img/close-icon.svg" alt="cerrar menú" />
+                </button>
+                <li><a href="#perfil" class="selected">Perfil</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="perfil">
+            <div class="profile-info">
+                <h1 class="profile-title">Soy Esperanza Ferrari,<br>Licenciada en Psicología</h1>
+                <p class="profiledetails">
+                    Soy una apasionada por la salud mental, muy organizada y con gran motivación, capaz de adaptarme a
+                    cualquier circunstancia
+                    y dar siempre lo mejor de mí en cualquier proyecto. Me esfuerzo por trabajar en equipo con la
+                    familia, fomentar valores
+                    como el respeto y compañerismo.
+                </p>
+                <button class="profileBtn">
+                    Descargar cv
+                </button>
+            </div>
+            <span class="profile-img-section">
+                <img class="profile-img" src="img/Esperanza.jpg" alt="Esperanza Ferrari, psicóloga" />
+                <div class="profile-img-line"></div>
+            </span>
+        </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="education" id="formacion">
+            <div class="education-body">
+                <h2 class="education-title">Formación académica</h2>
+                <div class="education-grid">
+                    <div class="education">
+                        <div class="education">
+                            <div class="education-date">2010 - 2016</div>
+                            <div class="education-career">Licenciatura en Psicología</div>
+                            <div class="education-place">Universidad de Córdoba</div>
+                        </div>
+                        <div class="education">
+                            <div class="education-date">2016 - 2019</div>
+                            <div class="education-career">Especialización en Psicología infantil con orientación al
+                                psicoanálisis</div>
+                            <div class="education-place">Universidad de Buenos Aires</div>
+                        </div>
+                        <div class="education">
+                            <div class="education-date">2019 - 2021</div>
+                            <div class="education-career">Maestría en Psicología educacional</div>
+                            <div class="education-place">Universidad de Madrid</div>
+                        </div>
+                        <div class="education">
+                            <div class="education-date">2021 - Actualidad</div>
+                            <div class="education-career">Especializacion en psicoanálisis de adolescentes</div>
+                            <div class="education-place">Universidad de Buenos Aires</div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <section class="experiences" id="experiencia">
+        <img src="img/wave.svg" alt="división" class="wave">
+        <div class="experiences-body">
+            <h2 class="experiences-title">Experiencia laboral</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2014 - 2016</div>
+                    <div class="experience-company">Jardín de Infantes Eureka</div>
+                    <div class="experience-puesto">Psicóloga</div>
+                    <div class="experience-desc">Participación en reuniones de padres, asesoramiento a los maestros y
+                        armado de talleres
+                        con padres y maestros. Orientado a la psicología evolutiva y del desarrollo.</div>
+                </div>
+                <div class="experience experience_left">
+                    <div class="experience-date">2016 - 2019</div>
+                    <div class="experience-company">Consultorios externos Caminos</div>
+                    <div class="experience-puesto">Psicóloga de niños y adolescentes</div>
+                    <div class="experience-desc">Diagnostico de transtornos psicológicos, utilizando mis conocimientos
+                        para evaluar las necesidades,
+                        habilidades y comportamientos del paciente. Intervención en terapia familiar y coordinada con
+                        otros profesionales.</div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2019 - Actualidad</div>
+                    <div class="experience-company">Northlands School</div>
+                    <div class="experience-puesto">Psicóloga infantil</div>
+                    <div class="experience-desc">Reflexión e intervención sobre el comportamiento humano, en situaciones
+                        educativas, mediante
+                        el desarrollo de las capacidades de las personas, grupos e instituciones.</div>
+                </div>
+            </div>
+        </div>
+        <img src="img/wave.svg" alt="división" class="wave wave_bottom">
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="skills" id="habilidades">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">Microsoft Office</li>
+                <li class="skills-skill">Tango Gestión</li>
+                <li class="skills-skill">Insight</li>
+                <li class="skills-skill">PsicoClinic</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="contact" id="contacto">
+            <h2 class="contact-title">Información de contacto</h2>
+            <div class="contact-details">
+                <div class="contact-details-group">
+                    <p class="contact-label">Dirección</p>
+                    <p class="contact-text">Avenida Bautista Alcántara 3405, Piso 4. Buenos Aires, Argentina.</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-label">Mail</p>
+                    <p class="contact-text">espferrari@mail.com</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-text">Deja tu mensaje, me contactaré a la brevedad.</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="contact-form-group">
+                    <label for="name">Nombre y apellido</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+                <div class="contact-form-group">
+                    <label for="phone">Teléfono</label>
+                    <input required type="number" name="phone" id="phone">
+                </div>
+                <div class="contact-form-group">
+                    <label for="email">Mail</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+                <div class="contact-form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea required name="message" id="message" rows="6"></textarea>
+                </div>
+                <button class="contact-form-submit" type="submit">Enviar</button>
+            </form>
+            <nav class="social">
+                <ul class="social-list">
+                    <li>
+                        <a href="www.linkedin.com/espferrari"></a>
+                        <img src="img/linkedin.svg" alt="Perfil de LinkedIn">
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+</body>
+
+</html>
